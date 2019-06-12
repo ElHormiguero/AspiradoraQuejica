@@ -22,13 +22,12 @@
 //CONFIGURACION
 //Sensor
 #define UmbralSensor 500 //Umbral de tensión analógica de entrada del sensor de impacto
-#define UmbralMotor 150 //Umbral de tensión analógica de entrada para el voltaje del motor 
 #define Antirrebotes 700 //(ms)
-#define MargenUmbral 50
-//General
+#define UmbralMotor 150 //Umbral de tensión analógica de entrada para el voltaje del motor 
+#define MargenUmbral 50 //Margen entorno al umbral motor para evitar rebotes
+//Comportamiento
 #define tiempoMin 3000 //Tiempo de espera aleatoria minimo
 #define tiempoMax 7000 //Tiempo de espera aleatoria maximo
-//Comportamiento
 #define PeriodoReducirEnfado 700 //(ms) Tiempo para reducir el enfado en 1
 #define TiempoEnfadoChoque 5 //(s) Tiempo máximo entre choques para que se enfade
 #define PuntosEnfadoChoque 10 //Puntos de enfado que se añaden como máximo entre choques
